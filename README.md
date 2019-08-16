@@ -6,10 +6,14 @@ GooglePlaceAPIを実装してAPIの使用方法や使い勝手を確認するた
 ## 使い方
 
 1.pods installをしてGoogle MapsとPlaces APIのライブラリをインストールします。
+
 2.workspaceファイルが作成されるので、Xcodeを開いている場合は、閉じてからworkspaceを開きます。
+
 3.Google Maps APIのAPIキーをAppDelegateのAPI KEYの指定の箇所に設定します。
+
 4.SearchResultsController.swiftのtableView didSelectRowAtの中で実行しているジオコードAPIのURLにもAPI KEYを設定します。
-4.ビルド
+
+5.ビルド
 
 実装している内容は下記です。
 
